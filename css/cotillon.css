@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background: linear-gradient(90deg, #F276DE 0%, #48C9D1 87.18%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter:drop-shadow(4px 4px 2px #ffffff);
+    font-family: Inter;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#titulo{
+    display: flex;
+    width: 475px;
+    height: 154px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+#cabecera{
+    padding: 0px;
+    margin: 0px;
+    width: 1799px;
+    height: 156px;
+    flex-shrink: 0;
+    background: #D3E7FF;
+}
+#pie{
+    width: 1799px;
+    height: 96px;
+    flex-shrink: 0;
+    background: #D3E7FF;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#imgPie{
+    width: 69px;
+    height: 69px;
+    flex-shrink: 0;
+    margin-inline: 10px;
+    margin-top: 10px;
+}
+h2{
+    color: #000;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#tituloSecundario{
+    margin-top: 70px;
+    margin-left: 30px;
+    display: flex;
+    width: 394px;
+    height: 87px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#dSection{
+    width: 369px;
+    height: 505px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    border: 3px solid #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#imdProducto{
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    border: 1px solid #000;
+} 
+h3{
+    color: #000;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#botComprar{
+    margin-top: 30px;
+    background: #ffffff;
+    width: 109px;
+    height: 49px;
+    font-size: 23px;
+    font-family: Inter;
+}
